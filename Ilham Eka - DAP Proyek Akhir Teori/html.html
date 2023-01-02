@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Website Personal Ilham Eka Prawira</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style/style.css" />
+		<link rel="stylesheet" href="style/sidebar.css" />
+		<link rel="stylesheet" href="style/utility.css" />
+		<link rel="stylesheet" href="style/color.css" />
+		<link rel="stylesheet" href="style/typography.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="container flex justify-space-between">
+					<div class="logo">
+						<img src="static/Educore-Logo.png" width="150px" />
+					</div>
+					<div class="menu flex mx-l">
+						<div class="mx-m">
+							<a class="menu-item" onclick="scrollToTargetAdjusted('Tentang')">Informasi Paket</a>
+						</div>
+						<div class="mx-m">
+							<button class="openbtn" onclick="openNav()">Daftar</button>
+						</div>
+						<div class="mx-m">
+							<button class="openbtn" onclick="openNav()">Masuk</button>
+						</div>
+                        <div class="mx-m">
+                            <img class="notif" src="static/icon/notification_important.png" />
+                        </div>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+        <section class="hero-container">
+            <br><br><br><br><br><br><br><br><br><br><br><br>
+            <div class="hero flex justify-center">
+                <div class="search-container">
+                    <form action="/action_page.php">
+                      <input type="text" placeholder="Apa yang kamu cari?" name="search">
+                      <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <br>
+		<main class="mx=1">
+			<div class="container flex justify-space-between">
+                <div class="">
+                </div>
+                <div class="menu flex mx-l">
+                    <div class="mx-m">
+                        <a class="menu-item" onclick="scrollToTargetAdjusted('')">EduStudy</a>
+                    </div>
+                    <div class="mx-m">
+                        <a class="menu-item" onclick="scrollToTargetAdjusted('')">EduClass</a>
+                    </div>
+                    <div class="mx-m">
+                        <a class="menu-item" onclick="scrollToTargetAdjusted('')">EduBook</a>
+                    </div>
+                    <div class="mx-m">
+                        <a class="menu-item" onclick="scrollToTargetAdjusted('')">EduBlog</a>
+                    </div>
+                </div>
+            </div>
+            <hr style="height:4px;border-width:0;color:black;background-color:black">
+            
+			<div class="color-2">
+				<div class="container pa-l flex justify-center">
+					<div class="section-wrapper mb-l">
+						<div class="menu flex mx-l">
+                            <div class="mx-m">
+                                <iframe width="513" height="327"
+                                    src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                                </iframe>
+                            </div>
+                            <div class="mx-m">
+                                <article>
+                                    <h1>Apa itu EduClass?</h1>
+                                    <p>EduClass adalah salahsatu fitur pada EduCore yang menawarkan kepada peserta didik dan pengajar dapat berkomunikasi jarak jauh dalam pembelajaran kelas. Seorang pengajar dapat memberikan materi ataupun tugas, yang nantinya dapat diakses oleh para peserta didik</p>
+                                </article>
+                            </div>
+                        </div>
+					</div>
+				</div>
+			</div>
+            <hr style="height:4px;border-width:0;color:black;background-color:black">
+
+			<div class="color-3">
+				<div class="container pa-l flex justify-center">
+					<div class="section-wrapper mb-l">
+						<div class="menu flex mx-l">
+                            <div class="mx-m">
+                                <article style="text-align: justify;">
+                                    <p><b>Tentang Website:</b></p>
+                                    <p>EduCore memberikan kemudahan untuk jalannya pendidikan di Indonesia. EduCore sendiri memberikan berbagai fitur yang dapat dimanfaatkan oleh peserta didik maupun pengajar dari kalangan Taman Kanak-kanak sampai dengan perkuliahan. dari fitur belajar online, kelas online, buku elektronik, dan juga berbagi konten edukasi.</p>
+                                </article>
+                            </div>
+                            <div class="mx-m">
+                                <img src="static/Dummy.png" width="350">
+                            </div>
+                        </div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<aside class="sidebar" id="sidebar">
+			<a href="#" class="closebtn" onclick="closeNav()">×</a>
+			<div class="mx-l">
+				<div class="profile-pic-wrapper">
+					<img class="profile-pic" src="static/Ilham-Bio.jpg">
+				</div>
+				<div>
+					<h2 class="align-center">Masuk/Login (Dummy)</h2>
+				</div>
+				<div>
+					<p>Nama		: Ilham Eka Prawira</p>
+					<p>NIM		: 215150600111015</p>
+					<p>Prodi	: S1 Pedidikan Teknologi Informasi</p>
+					<p>Fakultas	: Ilmu Komputer</p>
+					<p>Kampus	: Universitas Brawijaya</p>
+					<p>Email	: myzerro911@gmail.com</p>
+					<p>Instagram: ilham_eka911</p>
+					<p>Phone	: +6283895007292</p>
+				</div>
+			</div>
+		</aside>	
+		<footer class="color-1">
+			<div class="container mx-1">
+				<div class="flex">
+				 	<div class="flex-column pa-m">
+				 		<p><b>Call Center</b></p>
+				 		<p>083895007292</p>
+				  	</div>
+				  	<div class="flex-column pa-m">
+                        <p><b>Website</b></p>
+                        <p>https://Educore.id</p>
+                    </div>
+                    <div class="flex-column pa-m">
+                        <p><b>Alamat Perusahaan</b></p>
+				 		<p>Jalan Raya Konoha No.15, Kota Bandung</p>
+				  	</div>
+				</div>
+                <div class="flex">
+                    <div class="flex-column pa-m">
+                        <p>Panduan  Lengkap Website</p>
+                    </div>
+                    <div class="flex-column pa-m">
+                        <p>2022©  Educore.id  All Rights Reserved</p>
+                    </div>
+                </div>
+			</div>
+		</footer>
+		<script src="script/script.js"></script>
+	</body>
+</html>

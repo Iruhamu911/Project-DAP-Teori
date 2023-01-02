@@ -1,0 +1,113 @@
+body {
+	font-family: 'Lato';
+	opacity: 0.8;
+	background-size: 50px 50px, 50px 50px, 25px 25px, 25px 25px;
+	margin: 0;
+	min-width: fit-content;
+}
+
+nav {
+	background-color: #ffffff;
+	position: fit-content;
+	top: 0;
+	width: 100%;
+	padding: 8px;
+}
+
+h1, h2, h3, p, a {
+	color: black;
+	line-height: 1.35em;
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+p {
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+.container {
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	align-items: center;
+}
+
+.hero-container{
+	height: 667px;
+	background-image: url(Hero-Image.png);
+	background-size: 100% 100%;
+}
+
+form {
+	background-color: #ffffff;
+	width: 521px;
+	height: 68px;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+input {
+	all: unset;
+	font: 16px;
+	color: black;
+	height: 100%;
+	width: 100%;
+	padding: 6px 10px;
+}
+
+button{
+	all: unset;
+	cursor: pointer;
+	width: 63px;
+}
+
+.menu-item:hover{
+	color: black;
+	text-decoration: underline;
+}
+
+article{
+	text-align: center;
+	background-color: #81ef7d;
+	padding: 8px;
+	border-radius: 8px;
+}
+
+.hero-wrapper-text {
+	max-width: 600px;
+}
+
+.section-wrapper {
+	max-width: 1000px;
+	width: 1000px;
+}
+
+.Game-image {
+	width: 100px;
+	display: block;
+	margin-left: auto;
+ 	margin-right: auto;
+}
+
+.rp-image {
+	max-height: 228px;
+	max-width: 190%;
+	border-radius: 8px;
+}
+
+.notif {
+	width: 35px;
+	height: 35px;
+	padding-top: 8px;
+}
+
+footer {
+	background-color: #F5E4E4;
+	background-size: 20px 20px;
+}
